@@ -43,7 +43,8 @@ public class Test {
 		String gender = "----";
 		String age = "----";
 	    
-		RoutineInspection routineInspection = new RoutineInspection(name, adress, FIO, polis, date, vrach, dolznost, diagnoz, vid, Year, period, result);
+		RoutineInspection routineInspection = new RoutineInspection(name, adress, FIO, polis, date, vrach, dolznost, diagnoz,
+				vid, Year, period, result);
 		test.addMedicalCare(routineInspection);
 		
 		Vaccination vaccination = new Vaccination(name, adress, FIO, polis, date, vrach, dolznost, diagnoz, nameV, dataV, periodDo);
